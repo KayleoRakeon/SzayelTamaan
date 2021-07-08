@@ -1,17 +1,16 @@
 .bottomLeft{
     width:14%;
     height:auto;
-    padding:60px 20px 30px 45px;
+    padding:50px 20px 20px 45px;
     box-sizing:border-box;
     background:$sec;
     position:relative;
-    overflow-y:scroll;
-    overflow-x:hidden;
+    overflow:hidden;
 
     article{
         width:100%;
         height:auto;
-        margin:0 0 50px 0;
+        margin:0 0 40px 0;
 
         &:last-child{
             margin:0;
@@ -54,7 +53,7 @@
         width:75px;
         height:75px;
         background:$prim;
-        bottom:-83px;
+        bottom:0;
         right:0;
         display:flex;
         justify-content:center;

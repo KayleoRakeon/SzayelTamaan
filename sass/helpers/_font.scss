@@ -11,6 +11,7 @@ h1{
     letter-spacing:3px;
     z-index:5;
     position:relative;
+    line-height:45px;
 
     span{
         font-size:20px;
@@ -40,7 +41,7 @@ main{
                 article{
                     h2{
                         color:white;
-                        margin:0 0 20px 0;
+                        margin:0 0 15px 0;
                         font-size:$L;
                         opacity:0.95;
                     }

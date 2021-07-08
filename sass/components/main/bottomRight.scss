@@ -1,6 +1,6 @@
 .sticky{
     width:86%;
-    height:calc(100vh - 300px);
+    height:calc(100vh - 200px);
     display:flex;
     justify-content:center;
     align-items:flex-start;
@@ -9,7 +9,7 @@
     .bottomRight{
         width:40%;
         height:auto;
-        padding:60px 20px 30px 50px;
+        padding:50px 20px 20px 50px;
         box-sizing:border-box;
         background:$ter;
         position:sticky;
