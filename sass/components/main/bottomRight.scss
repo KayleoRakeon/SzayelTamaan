@@ -1,0 +1,46 @@
+.sticky{
+    width:86%;
+    height:calc(100vh - 300px);
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    overflow:scroll;
+
+    .bottomRight{
+        width:40%;
+        height:auto;
+        padding:60px 20px 30px 50px;
+        box-sizing:border-box;
+        background:$ter;
+        position:sticky;
+        top:0;
+
+        article{
+            width:100%;
+            height:auto;
+            margin:0 0 50px 0;
+
+            &:last-child{
+                margin:0;
+            }
+        }
+
+        & > div{
+            position:absolute;
+            width:75px;
+            height:75px;
+            background:$sec;
+            top:0;
+            right:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            i{
+                color:white;
+                font-size:40px;
+            }
+        }
+    }
+}
+

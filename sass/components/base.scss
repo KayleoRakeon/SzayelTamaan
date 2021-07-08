@@ -1,0 +1,29 @@
+body{
+    width:auto;
+    height:100vh;
+    background:#F6F6F6;
+    overflow:hidden;
+
+    main{
+        width:100%;
+        height:auto;
+        background:white;
+
+        header{
+            width:100%;
+            height:auto;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        main{
+            width:100%;
+            height:auto;
+            display:flex;
+            justify-content:center;
+            align-items:stretch;
+            overflow:hidden;
+        }
+    }
+}

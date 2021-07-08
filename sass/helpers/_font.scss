@@ -1,0 +1,125 @@
+h1, 
+h2{
+    font-family:$title;
+}
+
+h1{
+    color:$sec;
+    font-size:$XL;
+    text-transform:uppercase;
+    font-weight:$extra;
+    letter-spacing:3px;
+    z-index:5;
+    position:relative;
+
+    span{
+        font-size:20px;
+        font-weight:$reg;
+    }
+}
+
+p{
+    font-family:$text;
+}
+
+header{
+    p{
+        font-size:$L;
+        font-style:italic;
+        font-weight:$thin;
+        margin:20px 0 0 0;
+        color:white;
+    }
+}
+
+main{
+    main{
+        section{
+
+            &.bottomLeft{
+                article{
+                    h2{
+                        color:white;
+                        margin:0 0 20px 0;
+                        font-size:$L;
+                        opacity:0.95;
+                    }
+    
+                    p{
+                        color:white;
+                        opacity:0.95;
+                        font-weight:$light;
+    
+                        span{
+                            text-transform:uppercase;
+                            opacity:0.35;
+                            font-weight:$reg;
+                        }
+                    }
+                }
+            }
+
+            &.bottomRight{
+                article{
+                    h2{
+                        color:$sec;
+                        margin:0 0 20px 0;
+                        font-size:$L;
+                        position:relative;
+
+                        &::after{
+                            content:"";
+                            position:absolute;
+                            bottom:-6px;
+                            left:0;
+                            width:300px;
+                            height:3px;
+                            background:$prim;
+                            border-radius:50px;
+                        }
+                    }
+
+                    h3{
+                        color:$prim;
+                        text-transform:uppercase;
+                        font-weight:$bold;
+                        font-family:$title;
+                        font-style:italic;
+                        margin:0 0 5px 0;
+                    }
+    
+                    p{
+                        color:$sec;
+                        margin:0 0 10px 0;
+                        font-size:$M;
+                    }
+                }
+            }
+
+            &.story{
+                article{
+                    h4{
+                        font-family:$title;
+                        color:$ter;
+                        background:$sec;
+                        display:inline-block;
+                        padding:10px 20px 10px 50px;
+                        box-sizing:border-box;
+                        margin:0 0 20px 0;
+                        font-size:$L;
+                        font-weight:$light;
+                        text-transform:lowercase;
+                    }
+
+                    p{
+                        padding:0 0 0 50px;
+                        box-sizing:border-box;
+                        font-size:$M;
+                        font-family:$story;
+                        margin:0 0 5px 0;
+                    }
+                }
+            }
+        }
+    }
+}
